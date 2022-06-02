@@ -1,0 +1,11 @@
+.chart--body {
+  background-color: var(--neutral-Very-pale-orange);
+  width: 100%;
+  border-radius: 0.5em;
+  padding: 1.25rem 1.25rem 0.25rem 1.25rem;
+}
+.chart--body--title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-bottom: 3rem;
+}

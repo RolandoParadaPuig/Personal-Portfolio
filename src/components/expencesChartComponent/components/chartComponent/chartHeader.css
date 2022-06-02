@@ -1,0 +1,32 @@
+.chart--header {
+  border-radius: 0.5em;
+  width: 100%;
+  background-color: var(--primary-Soft-red);
+  margin-bottom: 0.75rem;
+}
+.chart--title {
+  color: var(--neutral-Very-pale-orange);
+  font-size: 0.75rem;
+  padding: 1rem 0 1rem 1.25rem;
+  margin: 0;
+}
+.chart--title--balance {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.chart--title--circle {
+  background-color: var(--neutral-Dark-brown);
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
+  position: relative;
+}
+.chart--title--circle::before {
+  content: "";
+  position: absolute;
+  left: -50%;
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
+  border: 2.5px solid var(--neutral-Very-pale-orange);
+}

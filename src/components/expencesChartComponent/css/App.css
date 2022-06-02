@@ -1,0 +1,36 @@
+@import "antd/dist/antd.css";
+:root {
+  --primary-Soft-red: hsl(10, 79%, 65%);
+  --primary-Cyan: hsl(186, 34%, 60%);
+  --neutral-Dark-brown: hsl(25, 47%, 15%);
+  --neutral-Medium-brown: hsl(28, 10%, 53%);
+  --neutral-Cream: hsl(27, 66%, 92%);
+  --neutral-Very-pale-orange: hsl(33, 100%, 98%);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  background-image: url(../assets/images/3210292.jpg);
+  background-size: cover;
+}
+
+@media (min-width: 426px) {
+  .chart--container {
+    width: 80%;
+    height: 100%;
+    max-width: 1200px;
+    max-height: 680px;
+    margin: 0 auto;
+  }
+  .chart--component {
+    max-width: 20rem;
+  }
+}

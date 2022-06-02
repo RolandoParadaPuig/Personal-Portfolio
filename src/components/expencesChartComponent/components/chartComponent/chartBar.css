@@ -1,0 +1,43 @@
+.bar {
+  width: 75%;
+  margin: 0 auto;
+  background-color: var(--primary-Soft-red);
+  border-radius: 3px;
+  position: relative;
+}
+.bar:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.chart--bar {
+  text-align: center;
+  font-size: 0.75rem;
+  padding-bottom: 1.25rem;
+  width: 14%;
+}
+
+.bar--blue {
+  background-color: var(--primary-Cyan);
+}
+
+.active {
+  opacity: 0.6;
+}
+.no--active {
+  opacity: 1;
+}
+.bar--amount {
+  position: absolute;
+  top: -1.65rem;
+  width: 100%;
+  background-color: var(--neutral-Dark-brown);
+  color: var(--neutral-Very-pale-orange);
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  padding: 0.125rem 0;
+}
+
+.active-amount {
+  opacity: 0;
+}
