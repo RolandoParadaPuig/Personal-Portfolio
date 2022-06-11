@@ -3,6 +3,7 @@ import "./css/App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LayoutComponent } from "./components/layout/LayoutComponent";
 import { ChartContainer } from "./components/expencesChartComponent/components/chartContainer/ChartContainer";
+import { IntroSectionContainer } from "./components/introSectionContainer/IntroSectionContainer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
             <Route path={"/"} /> */}
           </Route>
           <Route path={"/expences-chart"} element={<ChartContainer />} />
+          <Route path={"/intro-section"} element={<IntroSectionContainer />} />
         </Routes>
       </Router>
     </>

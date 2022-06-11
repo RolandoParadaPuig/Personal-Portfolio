@@ -6,11 +6,31 @@
   --neutral-Medium-brown: hsl(28, 10%, 53%);
   --neutral-Cream: hsl(27, 66%, 92%);
   --neutral-Very-pale-orange: hsl(33, 100%, 98%);
+  --almost-white: hsl(0, 0%, 98%);
+  --Medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+  --arrow-down: url(../images/icons/icon-arrow-down.svg);
+  --arrow-up: url(../images/icons/icon-arrow-up.svg);
+  --menu-icon: url(../images/icons/icon-menu.svg);
+  --close-menu-icon: url(../images/icons/icon-close-menu.svg);
+  --client-audiophile: url(../images/icons/client-audiophile.svg);
+  --client-databiz: url(../images/icons/client-databiz.svg);
+  --client-maker: url(../images/icons/client-maker.svg);
+  --client-meet: url(../images/icons/client-meet.svg);
+  --features-todo: url(../images/icons/icon-todo.svg);
+  --features-calendar: url(../images/icons/icon-calendar.svg);
+  --features-reminders: url(../images/icons/icon-reminders.svg);
+  --features-planning: url(../images/icons/icon-planning.svg);
 }
-* {
+*,
+ul,
+li,
+a {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  list-style: none;
 }
 body {
   margin: 0;
@@ -32,5 +52,76 @@ body {
   }
   .chart--component {
     max-width: 20rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .chart--container {
+    width: 95vw;
+    height: 95vh;
+    margin: 0 auto;
+  }
+  .chart--component {
+    max-width: 20rem;
+  }
+  .header--btn-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 655px) {
+  .body--container {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 90%;
+    width: 100%;
+  }
+  .body--image-mobile {
+    display: none;
+  }
+  .body--image-container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    max-width: 35rem;
+  }
+  .body--image-desktop {
+    display: block;
+    max-width: 20rem;
+  }
+  .body--main-container {
+    align-self: center;
+    min-width: 20rem;
+    max-width: 35rem;
+  }
+  .body--title,
+  .body--text-content {
+    text-align: start;
+  }
+  .body--text-content {
+    max-width: 25rem;
+    text-align: justify;
+  }
+  .body--title {
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+    font-weight: 800;
+  }
+  .body--text-container {
+    align-items: start;
+    font-size: 0.5rem;
+  }
+  .body--client-container {
+    margin-top: 3rem;
+  }
+  .body--button {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1023px) {
+  .body--title {
+    font-size: 5rem;
+    line-height: 5rem;
   }
 }
