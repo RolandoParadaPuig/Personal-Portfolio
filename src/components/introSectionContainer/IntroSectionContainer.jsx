@@ -1,6 +1,5 @@
 import { Image } from "antd";
 import React from "react";
-import { IntroHeaderComponent } from "../introSectionComponent/IntroHeaderComponent";
 import { IntroLayoutComponent } from "../introSectionComponent/IntroLayoutComponent";
 import "./introSectionContainer.css";
 export const IntroSectionContainer = () => {

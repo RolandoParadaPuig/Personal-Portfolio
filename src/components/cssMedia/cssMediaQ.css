@@ -1,0 +1,69 @@
+@media (min-width: 426px) {
+  .chart--container {
+    width: 80%;
+    height: 100%;
+    max-width: 1200px;
+    max-height: 680px;
+    margin: 0 auto;
+  }
+  .chart--component {
+    max-width: 20rem;
+  }
+}
+
+@media (min-width: 655px) {
+  .body--container {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 90%;
+    width: 100%;
+  }
+  .body--image-mobile {
+    display: none;
+  }
+  .body--image-container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    max-width: 35rem;
+  }
+  .body--image-desktop {
+    display: block;
+    max-width: 20rem;
+  }
+  .body--main-container {
+    align-self: center;
+    min-width: 20rem;
+    max-width: 35rem;
+  }
+  .body--title,
+  .body--text-content {
+    text-align: start;
+  }
+  .body--text-content {
+    max-width: 25rem;
+    text-align: justify;
+  }
+  .body--title {
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+    font-weight: 800;
+  }
+  .body--text-container {
+    align-items: start;
+    font-size: 0.5rem;
+  }
+  .body--client-container {
+    margin-top: 3rem;
+  }
+  .body--button {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1023px) {
+  .body--title {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}

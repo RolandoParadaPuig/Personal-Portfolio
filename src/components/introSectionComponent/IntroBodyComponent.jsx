@@ -1,6 +1,7 @@
 import { message } from "antd";
 import React from "react";
 import "./introBodyComponent.css";
+
 export const IntroBodyComponent = () => {
   return (
     <div className={"body--container"}>

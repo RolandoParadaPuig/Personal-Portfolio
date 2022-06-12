@@ -1,5 +1,6 @@
 import { Col, Row } from "antd";
 import "./introHeaderComponent.css";
+
 import React, { useState } from "react";
 
 export const IntroHeaderComponent = () => {
