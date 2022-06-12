@@ -7,11 +7,11 @@ export const IntroBodyComponent = () => {
     <div className={"body--container"}>
       <div className={"body--image-container"}>
         <img
-          src="src\images\mobile\image-hero-mobile.png"
+          src="https://firebasestorage.googleapis.com/v0/b/rolando-portfolio.appspot.com/o/intro-section-component%2Fimg-mobile%2Fimage-hero-mobile.png?alt=media&token=6d813d29-de0b-4ec6-9fcd-50388bf2ddd4"
           className="body--image-mobile"
         />
         <img
-          src="src\images\desktop\image-hero-desktop.png"
+          src="https://firebasestorage.googleapis.com/v0/b/rolando-portfolio.appspot.com/o/intro-section-component%2Fimg-desktop%2Fimage-hero-desktop.png?alt=media&token=9e754a29-e031-4f13-b953-44d8de5caa72"
           className="body--image-desktop"
         />
       </div>
