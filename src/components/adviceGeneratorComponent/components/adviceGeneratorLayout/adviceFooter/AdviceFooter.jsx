@@ -27,7 +27,7 @@ export const AdviceFooter = (props) => {
         onClick={randomClick}
         className={"advice--footer-button"}
       >
-        <div className={"advice--footer-dice"} />
+        generate
       </button>
     </footer>
   );
