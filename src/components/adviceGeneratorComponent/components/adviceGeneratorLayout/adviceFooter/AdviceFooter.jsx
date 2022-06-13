@@ -13,8 +13,10 @@ export const AdviceFooter = (props) => {
       const data = await res.json();
       setAdvice(data.slip.advice);
       setAdviceNumber(data.slip.id);
+      setBtnDisabled(false);
     } catch (err) {
       console.log(err);
+      setBtnDisabled(false);
     }
   };
   return (
