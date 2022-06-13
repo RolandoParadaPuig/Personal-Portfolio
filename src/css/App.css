@@ -9,6 +9,11 @@
   --almost-white: hsl(0, 0%, 98%);
   --Medium-gray: hsl(0, 0%, 41%);
   --almost-black: hsl(0, 0%, 8%);
+  --advice-light-cyan: hsl(193, 38%, 86%);
+  --advice-neon-green: hsl(150, 100%, 66%);
+  --advice-grayish-blue: hsl(217, 19%, 38%);
+  --advice-dark-grayish-blue: hsl(217, 19%, 24%);
+  --advice-dark-blue: hsl(218, 23%, 16%);
   --arrow-down: url(../images/icons/icon-arrow-down.svg);
   --arrow-up: url(../images/icons/icon-arrow-up.svg);
   --menu-icon: url(../images/icons/icon-menu.svg);
