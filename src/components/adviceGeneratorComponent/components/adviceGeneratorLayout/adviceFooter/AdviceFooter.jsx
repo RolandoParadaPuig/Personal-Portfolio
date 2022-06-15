@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./adviceFooter.css";
 export const AdviceFooter = (props) => {
   const [btnDisabled, setBtnDisabled] = useState(false);
@@ -19,6 +19,7 @@ export const AdviceFooter = (props) => {
       setBtnDisabled(false);
     }
   };
+  useEffect(() => {}, [btnDisabled, setAdvice, setAdviceNumber]);
   return (
     <footer className={"advice--footer"}>
       <div className={"advice--footer-separator"}></div>
