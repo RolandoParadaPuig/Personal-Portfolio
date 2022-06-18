@@ -101,11 +101,15 @@
   .time-tracking--article-previous {
     font-size: 0.75rem;
   }
+  .time-tracking--article-timeframe {
+    height: 6rem;
+  }
 }
 
 @media (min-width: 769px) {
   .time-tracking--article-timeframe {
     flex-direction: column;
+    height: 6.5rem;
   }
   .time-tracking--article-header {
     padding-bottom: 0.5rem;

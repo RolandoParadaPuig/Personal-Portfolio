@@ -3,15 +3,16 @@
   padding: 2.5rem 0;
   height: fit-content;
   display: grid;
-  grid-template-rows: 12rem repeat(6, fit-content);
+  grid-template-rows: 12rem repeat(6, 1fr);
   grid-gap: 0.85rem;
 }
 
 @media (min-width: 461px) {
   .time-tracking--layout {
+    padding: 0;
     width: 95%;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, fit-content);
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 @media (min-width: 769px) {
@@ -19,6 +20,6 @@
     max-width: 720px;
     padding: 0;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, fit-content);
+    grid-template-rows: repeat(2, 1fr);
   }
 }

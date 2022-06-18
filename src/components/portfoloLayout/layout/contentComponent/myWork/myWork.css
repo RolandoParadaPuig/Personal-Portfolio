@@ -1,0 +1,26 @@
+.portfolio--work {
+  height: fit-content;
+  min-height: 100vh;
+  padding: 4rem 0;
+  background: linear-gradient(
+    rgba(40, 55, 71, 1) 0%,
+    rgba(55, 162, 233, 1) 5%,
+    rgba(55, 162, 233, 1) 100%
+  );
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-grid-container {
+  width: 80%;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+.work-page-container {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}

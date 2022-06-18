@@ -4,18 +4,12 @@
   scroll-behavior: smooth;
 }
 
-.work {
-  height: 100vh;
-  background-color: rgba(113, 207, 36, 0.432);
-  color: #000;
-}
-
-.social {
+.portfolio--social {
   height: 100vh;
   background-color: rgba(250, 30, 125, 0.75);
 }
 
-.contact {
+.portfolio--contact {
   height: 100vh;
   background-color: rgba(250, 30, 125, 0.75);
 }
