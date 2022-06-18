@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./css/App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { LayoutComponent } from "./components/layout/LayoutComponent";
 import { ChartContainer } from "./components/expencesChartComponent/components/chartContainer/ChartContainer";
-import { IntroSectionContainer } from "./components/introSectionContainer/IntroSectionContainer";
+
 import { AdviceComponent } from "./components/adviceGeneratorComponent/components/adviceGeneratorComponent/AdviceComponent";
 import { TimeTrackingComponent } from "./components/timeTrackingComponent/components/timeTrackingComponent/TimeTrackingComponent";
+import { LayoutComponent } from "./components/portfoloLayout/layout/layoutComponent/LayoutComponent";
+import { IntroSectionContainer } from "./components/introSectionComponent/Components/introSectionContainer/IntroSectionContainer";
 function App() {
   const [count, setCount] = useState(0);
 

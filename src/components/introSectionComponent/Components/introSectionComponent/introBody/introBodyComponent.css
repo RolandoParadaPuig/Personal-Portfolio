@@ -1,4 +1,4 @@
-@import "../cssMedia/cssMediaQ.css";
+@import "../../../css/cssMediaQ.css";
 
 .body--container {
   display: flex;

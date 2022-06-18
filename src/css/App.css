@@ -1,43 +1,5 @@
 @import "antd/dist/antd.css";
-:root {
-  --primary-Soft-red: hsl(10, 79%, 65%);
-  --primary-Cyan: hsl(186, 34%, 60%);
-  --neutral-Dark-brown: hsl(25, 47%, 15%);
-  --neutral-Medium-brown: hsl(28, 10%, 53%);
-  --neutral-Cream: hsl(27, 66%, 92%);
-  --neutral-Very-pale-orange: hsl(33, 100%, 98%);
-  --almost-white: hsl(0, 0%, 98%);
-  --Medium-gray: hsl(0, 0%, 41%);
-  --almost-black: hsl(0, 0%, 8%);
-  --advice-light-cyan: hsl(193, 38%, 86%);
-  --advice-neon-green: hsl(150, 100%, 66%);
-  --advice-grayish-blue: hsl(217, 19%, 38%);
-  --advice-dark-grayish-blue: hsl(217, 19%, 24%);
-  --advice-dark-blue: hsl(218, 23%, 16%);
-  --arrow-down: url(../images/icons/icon-arrow-down.svg);
-  --arrow-up: url(../images/icons/icon-arrow-up.svg);
-  --menu-icon: url(../images/icons/icon-menu.svg);
-  --close-menu-icon: url(../images/icons/icon-close-menu.svg);
-  --client-audiophile: url(../images/icons/client-audiophile.svg);
-  --client-databiz: url(../images/icons/client-databiz.svg);
-  --client-maker: url(../images/icons/client-maker.svg);
-  --client-meet: url(../images/icons/client-meet.svg);
-  --features-todo: url(../images/icons/icon-todo.svg);
-  --features-calendar: url(../images/icons/icon-calendar.svg);
-  --features-reminders: url(../images/icons/icon-reminders.svg);
-  --features-planning: url(../images/icons/icon-planning.svg);
-  --timeTracking-Blue: hsl(246, 80%, 60%);
-  --timeTracking-Light-red-work: hsl(15, 100%, 70%);
-  --timeTracking-Soft-blue-play: hsl(195, 74%, 62%);
-  --timeTracking-Light-red-study: hsl(348, 100%, 68%);
-  --timeTracking-Lime-green-exercise: hsl(145, 58%, 55%);
-  --timeTracking-Violet-social: hsl(264, 64%, 52%);
-  --timeTracking-Soft-orange-self-care: hsl(43, 84%, 65%);
-  --timeTracking-Very-dark-blue: hsl(226, 43%, 10%);
-  --timeTracking-Dark-blue: hsl(235, 46%, 20%);
-  --timeTracking-Desaturated-blue: hsl(235, 45%, 61%);
-  --timeTracking-Pale-Blue: hsl(236, 100%, 87%);
-}
+
 *,
 ul,
 li,
@@ -47,15 +9,6 @@ a {
   margin: 0;
   text-decoration: none;
   list-style: none;
-}
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: "DM Sans", sans-serif;
-  font-size: 18px;
-  background-image: url(../assets/img/3210292.jpg);
-  background-size: cover;
 }
 
 @media (min-width: 426px) {

@@ -1,6 +1,6 @@
 import React from "react";
-import { IntroBodyComponent } from "./IntroBodyComponent";
-import { IntroHeaderComponent } from "./IntroHeaderComponent";
+import { IntroBodyComponent } from "../introBody/IntroBodyComponent";
+import { IntroHeaderComponent } from "../introHeader/IntroHeaderComponent";
 import "./introLayoutComponent.css";
 export const IntroLayoutComponent = () => {
   return (

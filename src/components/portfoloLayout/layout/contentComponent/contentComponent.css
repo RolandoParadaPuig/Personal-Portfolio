@@ -1,0 +1,21 @@
+.portfolio--main-content {
+  height: 100vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+.work {
+  height: 100vh;
+  background-color: rgba(113, 207, 36, 0.432);
+  color: #000;
+}
+
+.social {
+  height: 100vh;
+  background-color: rgba(250, 30, 125, 0.75);
+}
+
+.contact {
+  height: 100vh;
+  background-color: rgba(250, 30, 125, 0.75);
+}

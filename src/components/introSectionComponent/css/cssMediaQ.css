@@ -15,7 +15,7 @@
   .body--container {
     flex-direction: row-reverse;
     justify-content: space-around;
-    height: 90%;
+    height: 100%;
     width: 100%;
   }
   .body--image-mobile {
