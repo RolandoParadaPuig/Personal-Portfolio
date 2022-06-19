@@ -7,7 +7,7 @@ import { VscJson } from "react-icons/vsc";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 export const Tecnologies = () => {
   return (
-    <section id="tecnologies" className={"tecnologies"}>
+    <section id="tecnologies" className={"portfolio--tecnologies"}>
       <h2 className="tecnlogies-title">Tecnologies i Use</h2>
       <div className="tecnologies-container">
         <a

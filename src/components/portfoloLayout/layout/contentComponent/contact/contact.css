@@ -1,0 +1,36 @@
+.portfolio--contact {
+  height: 100vh;
+  background: linear-gradient(
+    rgba(55, 162, 233, 1) 0%,
+    rgba(55, 162, 233, 1) 95%,
+    rgba(40, 55, 71, 1) 100%
+  );
+}
+
+.portfolio--contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio--contact-form {
+  width: 95%;
+  max-width: 35rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  background-color: rgba(23, 165, 137);
+  box-shadow: 5px 5px 10px 15px rgb(94, 206, 240);
+}
+.portfolio--contact-form > h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.portfolio--form-item {
+  font-size: 2rem;
+}
+.portfolio--form-item-btn {
+  height: 3.5rem;
+  font-size: 2rem;
+  padding: 0;
+}
