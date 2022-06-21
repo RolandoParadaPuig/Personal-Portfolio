@@ -24,13 +24,8 @@ body {
 
 @media (min-width: 426px) {
   .chart--container {
-    width: 80%;
+    width: 100%;
     height: 100%;
-    max-width: 1200px;
-    max-height: 680px;
     margin: 0 auto;
-  }
-  .chart--component {
-    max-width: 20rem;
   }
 }

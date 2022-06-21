@@ -20,17 +20,21 @@
   grid-template-columns: repeat(1, 1fr);
 }
 .work-page-container {
-  background-color: #fff;
+  background-color: rgb(252, 233, 212);
   border-radius: 0.5rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid rgb(179, 179, 179);
   transition: all 250ms ease-out;
 }
 .work-page-container:hover {
-  transform: scale(1.105);
+  transform: scale(1.015);
+}
+.work-page-title {
+  font-size: 1.5rem;
 }
 
 .work-page-container > a,
@@ -51,12 +55,14 @@
   justify-content: center;
   align-items: center;
   height: 15rem;
-  border-radius: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem 0.5 0 0;
+  border-bottom: 1px solid rgb(179, 179, 179);
   overflow: hidden;
 }
 .work-page-image {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   transition: all 250ms ease-out;
 }
 .work-page-image:hover {
@@ -66,16 +72,26 @@
 .work-page-tags-container {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  width: 90%;
   justify-content: space-evenly;
 }
 
 .work-page-tags {
-  font-size: 1.25rem;
+  font-size: 0.85rem;
   color: rgb(71, 58, 248);
 }
 .work-page-description {
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: center;
+  width: 90%;
+}
+.work-page-gitHub {
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  display: block;
 }
 
 @media (min-width: 376px) {

@@ -1,13 +1,16 @@
 import React from "react";
 import "./myWork.css";
+import { useNavigate } from "react-router-dom";
 export const MyWork = () => {
+  const navigate = useNavigate();
+
   const works = [
     {
       key: 1,
       workImageUrl:
         "https://firebasestorage.googleapis.com/v0/b/rolando-portfolio.appspot.com/o/work-images%2FAdviceGenerator.PNG?alt=media&token=1cd792eb-9491-4064-9ca0-5e8b9073e408",
       workTitle: "Advice Generator",
-      workUrl: "https://rolando-portfolio.web.app/advice-generator",
+      workUrl: "/advice-generator",
       workDescriptiom: "Advice Generator Component with React.js and API Call",
       workTags: ["React", "HTML5", "CSS3", "API"],
       WorkGithub: "https://github.com/RolandoParadaPuig/advice-generator-app",
@@ -17,7 +20,7 @@ export const MyWork = () => {
       workImageUrl:
         "https://firebasestorage.googleapis.com/v0/b/rolando-portfolio.appspot.com/o/work-images%2FexpencesChart.PNG?alt=media&token=06fb8836-8b7a-4de3-8417-1c40b7b03563",
       workTitle: "Expences Chart",
-      workUrl: "https://rolando-portfolio.web.app/expences-chart",
+      workUrl: "/expences-chart",
       workDescriptiom:
         "Expences Chart Component with React.js and data from JSON",
       workTags: ["React", "HTML5", "CSS3", "JSON"],
@@ -28,7 +31,7 @@ export const MyWork = () => {
       workImageUrl:
         "https://firebasestorage.googleapis.com/v0/b/rolando-portfolio.appspot.com/o/work-images%2FintroSection.PNG?alt=media&token=98ecf1fe-6c69-4c40-a23a-53b0994c6e4f",
       workTitle: "Intro Section",
-      workUrl: "https://rolando-portfolio.web.app/intro-section",
+      workUrl: "/intro-section",
       workDescriptiom:
         "Intro Section Component with React.js with dropdown nav",
       workTags: ["React", "HTML5", "CSS3", "nav"],
@@ -39,7 +42,7 @@ export const MyWork = () => {
       workImageUrl:
         "https://firebasestorage.googleapis.com/v0/b/rolando-portfolio.appspot.com/o/work-images%2FtimeTracking.PNG?alt=media&token=28f838c6-4ab1-4f9a-aebb-3955e196296a",
       workTitle: "Time Tracking",
-      workUrl: "https://rolando-portfolio.web.app/time-tracking",
+      workUrl: "/time-tracking",
       workDescriptiom:
         "Time Tracking Component with React.js and data from JSON",
       workTags: ["React", "HTML5", "CSS3", "JSON"],
@@ -56,13 +59,13 @@ export const MyWork = () => {
             <div key={work.key} className="work-page-container">
               <div className="work-page-image-container">
                 <img
-                  alt="Page-work"
+                  alt={`${work.workTitle} preview`}
                   className="work-page-image"
                   src={work.workImageUrl}
                 />
               </div>
               <a href={work.workUrl} target="_blank">
-                <h3>{work.workTitle}</h3>
+                <h3 className="work-page-title">{work.workTitle}</h3>
               </a>
               <div className="work-page-tags-container">
                 {work.workTags.map((tag) => {
@@ -70,7 +73,11 @@ export const MyWork = () => {
                 })}
               </div>
               <p className="work-page-description">{work.workDescriptiom}</p>
-              <a target={"_blank"} href={work.WorkGithub}>
+              <a
+                clasName="work-page-gitHub"
+                target={"_blank"}
+                href={work.WorkGithub}
+              >
                 GitHub
               </a>
             </div>

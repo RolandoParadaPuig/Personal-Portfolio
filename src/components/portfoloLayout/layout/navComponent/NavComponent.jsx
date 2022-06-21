@@ -7,7 +7,7 @@ import "./navComponent.css";
 export const NavComponent = () => {
   return (
     <nav className="portfolio--nav-component">
-      <ul className="portfolio--nav-container">
+      <ul id="navMenu" className="portfolio--nav-container-hidden">
         <li className="portfolio--nav-list-elem">
           <a className="portfolio--nav-elem" href="#about">
             <SiAboutdotme />

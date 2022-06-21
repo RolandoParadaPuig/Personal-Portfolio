@@ -21,13 +21,14 @@
   font-size: 2rem;
   background-color: rgba(23, 165, 137);
   box-shadow: 5px 5px 10px 15px rgb(94, 206, 240);
+  z-index: index 5;
 }
 .portfolio--contact-form > h3 {
   font-size: 2rem;
   text-align: center;
 }
 .portfolio--form-item {
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 .portfolio--form-item-btn {
   height: 3.5rem;

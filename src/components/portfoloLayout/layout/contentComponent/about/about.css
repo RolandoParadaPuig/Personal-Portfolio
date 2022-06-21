@@ -17,15 +17,18 @@
 }
 .title {
   color: rgb(209, 242, 235);
-  font-size: 5rem;
-  line-height: 5rem;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.profession {
+  font-size: 2rem;
 }
 .text {
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
 
-@media (min-width: 32rem) {
+@media (min-width: 810px) {
   .title {
     color: rgb(209, 242, 235);
     font-size: 5rem;

@@ -11,36 +11,39 @@ export const Social = () => {
   const socialObj = [
     {
       socialName: "Twitter",
-      socialUrl: "",
+      socialUrl: "#",
       socialIcon: <AiFillTwitterSquare />,
     },
     {
       socialName: "Facebook",
-      socialUrl: "",
+      socialUrl: "#",
       socialIcon: <AiFillFacebook />,
     },
     {
       socialName: "LinkedIn",
-      socialUrl: "",
+      socialUrl: "#",
       socialIcon: <AiFillLinkedin />,
     },
     {
       socialName: "GitHub",
-      socialUrl: "",
+      socialUrl: "#",
       socialIcon: <AiFillGithub />,
     },
     {
       socialName: "WhatsApp",
-      socialUrl: "",
+      socialUrl: "#",
       socialIcon: <AiOutlineWhatsApp />,
     },
   ];
   return (
     <section id="social" className={"portfolio--social"}>
-      <div>
+      <div className={"portfolio--social-grid"}>
         {socialObj.map((social) => {
           return (
-            <a href={social.socialUrl}>
+            <a
+              href={social.socialUrl}
+              className={`portfolio--social-${social.socialName}`}
+            >
               {social.socialIcon}
               {social.socialName}
             </a>

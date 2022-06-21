@@ -1,21 +1,7 @@
-@media (min-width: 426px) {
-  .chart--container {
-    width: 80%;
-    height: 100%;
-    max-width: 1200px;
-    max-height: 680px;
-    margin: 0 auto;
-  }
-  .chart--component {
-    max-width: 20rem;
-  }
-}
-
 @media (min-width: 655px) {
   .body--container {
     flex-direction: row-reverse;
     justify-content: space-around;
-    height: 100%;
     width: 100%;
   }
   .body--image-mobile {

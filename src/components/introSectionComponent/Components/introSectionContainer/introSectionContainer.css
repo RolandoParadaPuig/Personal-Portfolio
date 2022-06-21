@@ -16,11 +16,6 @@
 }
 
 @media (min-width: 769px) {
-  .intro--container {
-    width: 95vw;
-    height: 95vh;
-    margin: 0 auto;
-  }
   .chart--component {
     max-width: 20rem;
   }

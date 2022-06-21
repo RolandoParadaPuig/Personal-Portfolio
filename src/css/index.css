@@ -1,4 +1,5 @@
 :root {
+  --portfolio-nav-height: 0;
   --primary-Soft-red: hsl(10, 79%, 65%);
   --primary-Cyan: hsl(186, 34%, 60%);
   --neutral-Dark-brown: hsl(25, 47%, 15%);

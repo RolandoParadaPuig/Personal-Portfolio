@@ -15,8 +15,6 @@ a {
   .chart--container {
     width: 80%;
     height: 100%;
-    max-width: 1200px;
-    max-height: 680px;
     margin: 0 auto;
   }
   .chart--component {

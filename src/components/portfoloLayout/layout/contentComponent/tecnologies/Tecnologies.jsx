@@ -8,7 +8,7 @@ import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 export const Tecnologies = () => {
   return (
     <section id="tecnologies" className={"portfolio--tecnologies"}>
-      <h2 className="tecnlogies-title">Tecnologies i Use</h2>
+      <h2 className="tecnlogies-title">Tecnologies I'm Using</h2>
       <div className="tecnologies-container">
         <a
           target="_blank"
