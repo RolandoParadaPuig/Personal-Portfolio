@@ -11,28 +11,34 @@ export const Social = () => {
   const socialObj = [
     {
       socialName: "Twitter",
-      socialUrl: "#",
+      socialUrl: "https://twitter.com/RolandoParadap",
       socialIcon: <AiFillTwitterSquare />,
+      socialKey: 1,
     },
     {
       socialName: "Facebook",
-      socialUrl: "#",
+      socialUrl: "https://www.facebook.com/RolandoPPuig/",
       socialIcon: <AiFillFacebook />,
+      socialKey: 2,
     },
     {
       socialName: "LinkedIn",
-      socialUrl: "#",
+      socialUrl: "https://www.linkedin.com/in/rolando-parada-puig/",
       socialIcon: <AiFillLinkedin />,
+      socialKey: 3,
     },
     {
       socialName: "GitHub",
-      socialUrl: "#",
+      socialUrl: "https://github.com/RolandoParadaPuig",
       socialIcon: <AiFillGithub />,
+      socialKey: 4,
     },
     {
       socialName: "WhatsApp",
-      socialUrl: "#",
+      socialUrl:
+        "https://api.whatsapp.com/send?phone=584147494426&text=%20Hi,%20I'm%20interested%20in%20contacting%20you.",
       socialIcon: <AiOutlineWhatsApp />,
+      socialKey: 5,
     },
   ];
   return (
@@ -41,8 +47,10 @@ export const Social = () => {
         {socialObj.map((social) => {
           return (
             <a
+              key={`social-${social.socialKey}`}
               href={social.socialUrl}
               className={`portfolio--social-${social.socialName}`}
+              target="_blank"
             >
               {social.socialIcon}
               {social.socialName}

@@ -87,10 +87,9 @@
   width: 90%;
 }
 .work-page-gitHub {
-  background-color: #fff;
   text-decoration: none;
-  color: #000;
-  font-size: 1rem;
+  color: rgb(167, 36, 228);
+  font-size: 1.75rem;
   display: block;
 }
 

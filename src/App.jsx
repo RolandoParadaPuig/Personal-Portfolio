@@ -7,6 +7,7 @@ import { AdviceComponent } from "./components/adviceGeneratorComponent/component
 import { TimeTrackingComponent } from "./components/timeTrackingComponent/components/timeTrackingComponent/TimeTrackingComponent";
 import { LayoutComponent } from "./components/portfoloLayout/layout/layoutComponent/LayoutComponent";
 import { IntroSectionContainer } from "./components/introSectionComponent/Components/introSectionContainer/IntroSectionContainer";
+import { InteractivePricingComponent } from "./components/interactivePricingComponent/components/interactivePricingComponent/InteractivePricingComponent";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -23,6 +24,10 @@ function App() {
           <Route path={"/intro-section"} element={<IntroSectionContainer />} />
           <Route path={"/advice-generator"} element={<AdviceComponent />} />
           <Route path={"/time-tracking"} element={<TimeTrackingComponent />} />
+          <Route
+            path={"/interactive-pricing"}
+            element={<InteractivePricingComponent />}
+          />
         </Routes>
       </Router>
     </>

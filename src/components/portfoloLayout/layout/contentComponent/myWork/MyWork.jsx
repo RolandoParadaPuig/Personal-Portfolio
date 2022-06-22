@@ -69,12 +69,19 @@ export const MyWork = () => {
               </a>
               <div className="work-page-tags-container">
                 {work.workTags.map((tag) => {
-                  return <div className="work-page-tags">#{tag}</div>;
+                  return (
+                    <div
+                      key={`tag-${work.workTags.indexOf(tag)}`}
+                      className="work-page-tags"
+                    >
+                      #{tag}
+                    </div>
+                  );
                 })}
               </div>
               <p className="work-page-description">{work.workDescriptiom}</p>
               <a
-                clasName="work-page-gitHub"
+                className="work-page-gitHub"
                 target={"_blank"}
                 href={work.WorkGithub}
               >

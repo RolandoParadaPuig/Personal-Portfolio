@@ -1,0 +1,36 @@
+.interactive__header {
+  height: 12rem;
+  background-image: url(../../../img/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.interactive__header > h1 {
+  font-size: 1.3rem;
+  color: var(--Dark-Desaturated-Blue-Text-CTA-Background);
+}
+.interactive__header > div > p {
+  margin: 0;
+  padding-bottom: 0.5rem;
+  color: var(--Grayish-Blue-Text);
+  font-size: 0.85rem;
+}
+
+@media (min-width: 560px) {
+  .interactive__header > h1 {
+    font-size: 1.65rem;
+    margin-bottom: 0.75rem;
+  }
+  .interactive__header > div {
+    display: flex;
+  }
+  p + p {
+    padding-left: 0.5rem;
+  }
+}

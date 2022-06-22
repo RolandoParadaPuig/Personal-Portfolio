@@ -1,0 +1,16 @@
+.interactive__component {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--White-Pricing-Component-Background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../img/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-position-y: -40vh;
+  background-size: cover;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
